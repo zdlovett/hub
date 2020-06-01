@@ -1,0 +1,96 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB3_A J?
+U 1 1 5F3C9E7F
+P 2900 2550
+F 0 "J?" H 2957 3267 50  0000 C CNN
+F 1 "USB3_A" H 2957 3176 50  0000 C CNN
+F 2 "Connector_USB:USB3_A_Molex_48393-001" H 3050 2650 50  0001 C CNN
+F 3 "~" H 3050 2650 50  0001 C CNN
+	1    2900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F3C9E85
+P 2850 4100
+F 0 "R?" V 2643 4100 50  0000 C CNN
+F 1 "330R" V 2734 4100 50  0000 C CNN
+F 2 "" V 2780 4100 50  0001 C CNN
+F 3 "~" H 2850 4100 50  0001 C CNN
+	1    2850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3C9E8B
+P 2850 3750
+F 0 "C?" V 3102 3750 50  0000 C CNN
+F 1 "0.1uF" V 3011 3750 50  0000 C CNN
+F 2 "" H 2888 3600 50  0001 C CNN
+F 3 "~" H 2850 3750 50  0001 C CNN
+	1    2850 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 3250 2700 3750
+Wire Wire Line
+	2700 3750 2700 4100
+Connection ~ 2700 3750
+$Comp
+L power:Earth #PWR?
+U 1 1 5F3C9E94
+P 2700 4250
+F 0 "#PWR?" H 2700 4000 50  0001 C CNN
+F 1 "Earth" H 2700 4100 50  0001 C CNN
+F 2 "" H 2700 4250 50  0001 C CNN
+F 3 "~" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4100 2700 4250
+Connection ~ 2700 4100
+Wire Wire Line
+	2800 3250 2800 3350
+Wire Wire Line
+	2800 3350 2900 3350
+Wire Wire Line
+	3000 3350 3000 3750
+Wire Wire Line
+	2900 3250 2900 3350
+Connection ~ 2900 3350
+Wire Wire Line
+	2900 3350 3000 3350
+Wire Wire Line
+	3000 3750 3000 4100
+Connection ~ 3000 3750
+Wire Wire Line
+	3000 4100 3000 4250
+Connection ~ 3000 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C9EA6
+P 3000 4250
+F 0 "#PWR?" H 3000 4000 50  0001 C CNN
+F 1 "GND" H 3005 4077 50  0000 C CNN
+F 2 "" H 3000 4250 50  0001 C CNN
+F 3 "" H 3000 4250 50  0001 C CNN
+	1    3000 4250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

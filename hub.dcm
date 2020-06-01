@@ -1,8 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP USB7056
-D 6 Port USB 3.1 hub controller 
+D 6 Port USB 3.1 hub controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/USB7056-Data-Sheet-DS00002675D.pdf
+$ENDCMP
+#
+$CMP USB7206
+D USB3.1 Gen2 Hub controller
+K USB, USB3.1, Hub
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002875B.pdf
 $ENDCMP
 #
 #End Doc Library

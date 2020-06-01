@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB3_A J?
+U 1 1 5F3D871A
+P 4950 4200
+F 0 "J?" H 5007 4917 50  0000 C CNN
+F 1 "USB3_A" H 5007 4826 50  0000 C CNN
+F 2 "Connector_USB:USB3_A_Molex_48393-001" H 5100 4300 50  0001 C CNN
+F 3 "~" H 5100 4300 50  0001 C CNN
+	1    4950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F3D8720
+P 4900 5750
+F 0 "R?" V 4693 5750 50  0000 C CNN
+F 1 "330R" V 4784 5750 50  0000 C CNN
+F 2 "" V 4830 5750 50  0001 C CNN
+F 3 "~" H 4900 5750 50  0001 C CNN
+	1    4900 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3D8726
+P 4900 5400
+F 0 "C?" V 5152 5400 50  0000 C CNN
+F 1 "0.1uF" V 5061 5400 50  0000 C CNN
+F 2 "" H 4938 5250 50  0001 C CNN
+F 3 "~" H 4900 5400 50  0001 C CNN
+	1    4900 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 4900 4750 5400
+Wire Wire Line
+	4750 5400 4750 5750
+Connection ~ 4750 5400
+$Comp
+L power:Earth #PWR?
+U 1 1 5F3D872F
+P 4750 5900
+F 0 "#PWR?" H 4750 5650 50  0001 C CNN
+F 1 "Earth" H 4750 5750 50  0001 C CNN
+F 2 "" H 4750 5900 50  0001 C CNN
+F 3 "~" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5750 4750 5900
+Connection ~ 4750 5750
+Wire Wire Line
+	4850 4900 4850 5000
+Wire Wire Line
+	4850 5000 4950 5000
+Wire Wire Line
+	5050 5000 5050 5400
+Wire Wire Line
+	4950 4900 4950 5000
+Connection ~ 4950 5000
+Wire Wire Line
+	4950 5000 5050 5000
+Wire Wire Line
+	5050 5400 5050 5750
+Connection ~ 5050 5400
+Wire Wire Line
+	5050 5750 5050 5900
+Connection ~ 5050 5750
+$Comp
+L power:GND #PWR?
+U 1 1 5F3D8741
+P 5050 5900
+F 0 "#PWR?" H 5050 5650 50  0001 C CNN
+F 1 "GND" H 5055 5727 50  0000 C CNN
+F 2 "" H 5050 5900 50  0001 C CNN
+F 3 "" H 5050 5900 50  0001 C CNN
+	1    5050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3D8747
+P 5000 3250
+F 0 "#PWR?" H 5000 3000 50  0001 C CNN
+F 1 "GND" H 5005 3077 50  0000 C CNN
+F 2 "" H 5000 3250 50  0001 C CNN
+F 3 "" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2350 5000 2350
+Wire Wire Line
+	4900 2250 4900 2350
+Connection ~ 4900 2350
+Wire Wire Line
+	4800 2350 4900 2350
+Wire Wire Line
+	4800 2250 4800 2350
+$Comp
+L power:Earth #PWR?
+U 1 1 5F3D8752
+P 4700 3250
+F 0 "#PWR?" H 4700 3000 50  0001 C CNN
+F 1 "Earth" H 4700 3100 50  0001 C CNN
+F 2 "" H 4700 3250 50  0001 C CNN
+F 3 "~" H 4700 3250 50  0001 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2350 5000 2750
+Connection ~ 5000 2750
+Wire Wire Line
+	4700 2250 4700 2750
+Connection ~ 4700 2750
+$Comp
+L Device:C C?
+U 1 1 5F3D875C
+P 4850 2750
+F 0 "C?" V 5102 2750 50  0000 C CNN
+F 1 "0.1uF" V 5011 2750 50  0000 C CNN
+F 2 "" H 4888 2600 50  0001 C CNN
+F 3 "~" H 4850 2750 50  0001 C CNN
+	1    4850 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3100 4700 3250
+Wire Wire Line
+	4700 2750 4700 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	5000 3100 5000 3250
+Wire Wire Line
+	5000 2750 5000 3100
+Connection ~ 5000 3100
+$Comp
+L Device:R R?
+U 1 1 5F3D8768
+P 4850 3100
+F 0 "R?" V 4643 3100 50  0000 C CNN
+F 1 "330R" V 4734 3100 50  0000 C CNN
+F 2 "" V 4780 3100 50  0001 C CNN
+F 3 "~" H 4850 3100 50  0001 C CNN
+	1    4850 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB3_A J?
+U 1 1 5F3D876E
+P 4900 1550
+F 0 "J?" H 4957 2267 50  0000 C CNN
+F 1 "USB3_A" H 4957 2176 50  0000 C CNN
+F 2 "Connector_USB:USB3_A_Molex_48393-001" H 5050 1650 50  0001 C CNN
+F 3 "~" H 5050 1650 50  0001 C CNN
+	1    4900 1550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

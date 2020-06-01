@@ -1,0 +1,38 @@
+
+
+Type C upstream to type A downstream converter
+development board ()
+https://www.ti.com/tool/3220UFP-DGLEVM
+
+USB 7206 hub development board ($215)
+https://www.digikey.com/products/en/development-boards-kits-programmers/evaluation-and-demonstration-boards-and-kits/787?k=USB7206
+
+USB 3.1 gen 2 hub controller 
+with usb3 type a downstream ports
+https://www.digikey.com/product-detail/en/USB7056T%2fKDX/USB7056T%2fKDXCT-ND/10297987/?itemSeq=327577912
+
+
+
+What would I want in a keyboard? 
+tenkeyless layout 
+nice keys
+standard layout otherwise
+fancy leds both for backlight and underlighting
+built in usb hub 
+
+never really use the audio features
+
+
+
+
+Overall TODO:
+
+3v3 power supply
+1v2 power supply 
+power sequencing for supplys and main chip
+usb ports
+clock
+
+
+
+

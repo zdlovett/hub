@@ -1,0 +1,381 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L hub:USB7206 U1
+U 1 1 5F0A2602
+P 3600 2000
+F 0 "U1" H 3600 -3573 50  0000 C CNN
+F 1 "USB7206" H 3600 -3664 50  0000 C CNN
+F 2 "hub:QFN-100_EP_12x12_Pitch0.4mm" H 3650 1000 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002875B.pdf" H 3600 1150 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5F0B4A5A
+P 3600 1900
+F 0 "#PWR017" H 3600 1650 50  0001 C CNN
+F 1 "GND" H 3605 1727 50  0000 C CNN
+F 2 "" H 3600 1900 50  0001 C CNN
+F 3 "" H 3600 1900 50  0001 C CNN
+	1    3600 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR018
+U 1 1 5F0B6BC1
+P 4850 1850
+F 0 "#PWR018" H 4850 1700 50  0001 C CNN
+F 1 "+3.3V" H 4865 2023 50  0000 C CNN
+F 2 "" H 4850 1850 50  0001 C CNN
+F 3 "" H 4850 1850 50  0001 C CNN
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2500 1700 2500
+Wire Wire Line
+	2100 2650 1700 2650
+Wire Wire Line
+	2100 2750 1700 2750
+Wire Wire Line
+	2100 2850 1700 2850
+Wire Wire Line
+	2100 3000 1700 3000
+Wire Wire Line
+	2100 3100 1700 3100
+Wire Wire Line
+	2100 3250 1700 3250
+Wire Wire Line
+	2100 3400 1700 3400
+Wire Wire Line
+	2100 3500 1700 3500
+Wire Wire Line
+	2100 3600 1700 3600
+Wire Wire Line
+	2100 3700 1700 3700
+Wire Wire Line
+	2100 4400 1700 4400
+Wire Wire Line
+	2100 4500 1700 4500
+Wire Wire Line
+	2100 4600 1700 4600
+Wire Wire Line
+	2100 4700 1700 4700
+Wire Wire Line
+	2100 4800 1700 4800
+Wire Wire Line
+	2100 4900 1700 4900
+Wire Wire Line
+	2100 5000 1700 5000
+Wire Wire Line
+	2100 5100 1700 5100
+Wire Wire Line
+	2100 5200 1700 5200
+Wire Wire Line
+	2100 5300 1700 5300
+Wire Wire Line
+	2100 5400 1700 5400
+Wire Wire Line
+	2100 5500 1700 5500
+Wire Wire Line
+	2100 5600 1700 5600
+Wire Wire Line
+	2100 5700 1700 5700
+Wire Wire Line
+	2100 5800 1700 5800
+Wire Wire Line
+	2100 5900 1700 5900
+Wire Wire Line
+	2100 6000 1700 6000
+Wire Wire Line
+	2100 6100 1700 6100
+Wire Wire Line
+	2100 6200 1700 6200
+Wire Wire Line
+	2100 6300 1700 6300
+Wire Wire Line
+	2100 6400 1700 6400
+Wire Wire Line
+	2100 6500 1700 6500
+Wire Wire Line
+	2100 6600 1700 6600
+Wire Wire Line
+	2100 6700 1700 6700
+Wire Wire Line
+	2100 6800 1700 6800
+Wire Wire Line
+	2100 6900 1700 6900
+Wire Wire Line
+	2100 7000 1700 7000
+Wire Wire Line
+	2100 7100 1700 7100
+Wire Wire Line
+	2100 7200 1700 7200
+Wire Wire Line
+	5100 2600 5600 2600
+Wire Wire Line
+	5100 2500 5600 2500
+Wire Wire Line
+	5100 2700 5600 2700
+Wire Wire Line
+	5100 2800 5600 2800
+Wire Wire Line
+	5100 2900 5600 2900
+Wire Wire Line
+	5100 3000 5600 3000
+Wire Wire Line
+	5100 3150 5600 3150
+Wire Wire Line
+	5100 3250 5600 3250
+Wire Wire Line
+	5100 3350 5600 3350
+Wire Wire Line
+	5100 3450 5600 3450
+Wire Wire Line
+	5100 3550 5600 3550
+Wire Wire Line
+	5100 3650 5600 3650
+Wire Wire Line
+	5100 3800 5600 3800
+Wire Wire Line
+	5100 3900 5600 3900
+Wire Wire Line
+	5100 4000 5600 4000
+Wire Wire Line
+	5100 4100 5600 4100
+Wire Wire Line
+	5100 4200 5600 4200
+Wire Wire Line
+	5100 4300 5600 4300
+Wire Wire Line
+	5100 4450 5600 4450
+Wire Wire Line
+	5100 4550 5600 4550
+Wire Wire Line
+	5100 4650 5600 4650
+Wire Wire Line
+	5100 4750 5600 4750
+Wire Wire Line
+	5100 4850 5600 4850
+Wire Wire Line
+	5100 4950 5600 4950
+Wire Wire Line
+	5100 5100 5600 5100
+Wire Wire Line
+	5100 5200 5600 5200
+Wire Wire Line
+	5100 5300 5600 5300
+Wire Wire Line
+	5100 5400 5600 5400
+Wire Wire Line
+	5100 5500 5600 5500
+Wire Wire Line
+	5100 5600 5600 5600
+Wire Wire Line
+	5100 5750 5600 5750
+Wire Wire Line
+	5100 5850 5600 5850
+Wire Wire Line
+	5100 5950 5600 5950
+Wire Wire Line
+	5100 6050 5600 6050
+Wire Wire Line
+	5100 6150 5600 6150
+Wire Wire Line
+	5100 6250 5600 6250
+Wire Wire Line
+	5100 6400 5600 6400
+Wire Wire Line
+	5100 6500 5600 6500
+$Comp
+L power:+1V1 #PWR016
+U 1 1 5F1820ED
+P 2350 1800
+F 0 "#PWR016" H 2350 1650 50  0001 C CNN
+F 1 "+1V1" H 2365 1973 50  0000 C CNN
+F 2 "" H 2350 1800 50  0001 C CNN
+F 3 "" H 2350 1800 50  0001 C CNN
+	1    2350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1900 3600 2000
+Wire Wire Line
+	4500 2000 4500 1950
+Wire Wire Line
+	4300 2000 4300 1950
+Wire Wire Line
+	4200 2000 4200 1950
+Wire Wire Line
+	4000 2000 4000 1950
+Wire Wire Line
+	3900 1950 4000 1950
+Wire Wire Line
+	3900 1950 3900 2000
+Connection ~ 4000 1950
+Wire Wire Line
+	4000 1950 4100 1950
+Connection ~ 4100 1950
+Wire Wire Line
+	4100 1950 4100 2000
+Wire Wire Line
+	4100 1950 4200 1950
+Connection ~ 4200 1950
+Wire Wire Line
+	4200 1950 4300 1950
+Connection ~ 4300 1950
+Wire Wire Line
+	4300 1950 4400 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 1950 4400 2000
+Wire Wire Line
+	4400 1950 4500 1950
+Connection ~ 4500 1950
+Wire Wire Line
+	4500 1950 4600 1950
+Connection ~ 4600 1950
+Wire Wire Line
+	4600 1950 4600 2000
+Wire Wire Line
+	4600 1950 4850 1950
+Wire Wire Line
+	4850 1950 4850 1850
+Wire Wire Line
+	2500 2000 2500 1950
+Wire Wire Line
+	2500 1950 2350 1950
+Wire Wire Line
+	2350 1950 2350 1800
+Wire Wire Line
+	3300 2000 3300 1950
+Connection ~ 2500 1950
+Wire Wire Line
+	2600 2000 2600 1950
+Connection ~ 2600 1950
+Wire Wire Line
+	2600 1950 2500 1950
+Wire Wire Line
+	2700 2000 2700 1950
+Connection ~ 2700 1950
+Wire Wire Line
+	2700 1950 2600 1950
+Wire Wire Line
+	2800 2000 2800 1950
+Connection ~ 2800 1950
+Wire Wire Line
+	2800 1950 2700 1950
+Wire Wire Line
+	2900 2000 2900 1950
+Wire Wire Line
+	2800 1950 2900 1950
+Connection ~ 2900 1950
+Wire Wire Line
+	2900 1950 3000 1950
+Wire Wire Line
+	3000 1950 3000 2000
+Connection ~ 3000 1950
+Wire Wire Line
+	3000 1950 3100 1950
+Wire Wire Line
+	3100 1950 3100 2000
+Connection ~ 3100 1950
+Wire Wire Line
+	3100 1950 3200 1950
+Wire Wire Line
+	3200 1950 3200 2000
+Connection ~ 3200 1950
+Wire Wire Line
+	3200 1950 3300 1950
+Text GLabel 5600 3000 2    30   BiDi ~ 0
+USB_RX_UP_N
+Text GLabel 5600 2900 2    30   BiDi ~ 0
+USB_RX_UP_P
+Text GLabel 5600 2800 2    30   BiDi ~ 0
+USB_TX_UP_N
+Text GLabel 5600 2700 2    30   BiDi ~ 0
+USB_TX_UP_P
+Text GLabel 5600 2600 2    30   BiDi ~ 0
+USB2_UP_N
+Text GLabel 5600 2500 2    30   BiDi ~ 0
+USB2_UP_P
+Text GLabel 5600 3150 2    30   BiDi ~ 0
+USB2_D1_P
+Text GLabel 5600 3250 2    30   BiDi ~ 0
+USB2_D1_N
+Text GLabel 5600 6400 2    30   BiDi ~ 0
+USB2_D6_N
+Text GLabel 5600 6500 2    30   BiDi ~ 0
+USB2_D6_P
+Text GLabel 5600 3800 2    30   BiDi ~ 0
+USB2_D2_P
+Text GLabel 5600 3900 2    30   BiDi ~ 0
+USB2_D2_N
+Text GLabel 5600 4450 2    30   BiDi ~ 0
+USB2_D3_P
+Text GLabel 5600 4550 2    30   BiDi ~ 0
+USB2_D3_N
+Text GLabel 5600 5100 2    30   BiDi ~ 0
+USB2_D4_P
+Text GLabel 5600 5200 2    30   BiDi ~ 0
+USB2_D4_N
+Text GLabel 5600 5750 2    30   BiDi ~ 0
+USB2_D5_P
+Text GLabel 5600 5850 2    30   BiDi ~ 0
+USB2_D5_N
+Text GLabel 5600 3650 2    30   BiDi ~ 0
+USB_RX_D1_N
+Text GLabel 5600 3550 2    30   BiDi ~ 0
+USB_RX_D1_P
+Text GLabel 5600 3450 2    30   BiDi ~ 0
+USB_TX_D1_N
+Text GLabel 5600 3350 2    30   BiDi ~ 0
+USB_TX_D1_P
+Text GLabel 5600 4300 2    30   BiDi ~ 0
+USB_RX_D2_N
+Text GLabel 5600 4200 2    30   BiDi ~ 0
+USB_RX_D2_P
+Text GLabel 5600 4100 2    30   BiDi ~ 0
+USB_TX_D2_N
+Text GLabel 5600 4000 2    30   BiDi ~ 0
+USB_TX_D2_P
+Text GLabel 5600 4950 2    30   BiDi ~ 0
+USB_RX_D3_N
+Text GLabel 5600 4850 2    30   BiDi ~ 0
+USB_RX_D3_P
+Text GLabel 5600 4750 2    30   BiDi ~ 0
+USB_TX_D3_N
+Text GLabel 5600 4650 2    30   BiDi ~ 0
+USB_TX_D3_P
+Text GLabel 5600 5600 2    30   BiDi ~ 0
+USB_RX_D4_N
+Text GLabel 5600 5500 2    30   BiDi ~ 0
+USB_RX_D4_P
+Text GLabel 5600 5400 2    30   BiDi ~ 0
+USB_TX_D4_N
+Text GLabel 5600 5300 2    30   BiDi ~ 0
+USB_TX_D4_P
+Text GLabel 5600 6250 2    30   BiDi ~ 0
+USB_RX_D5_N
+Text GLabel 5600 6150 2    30   BiDi ~ 0
+USB_RX_D5_P
+Text GLabel 5600 6050 2    30   BiDi ~ 0
+USB_TX_D5_N
+Text GLabel 5600 5950 2    30   BiDi ~ 0
+USB_TX_D5_P
+$EndSCHEMATC
